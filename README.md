@@ -16,7 +16,7 @@ Atas perhatiannya terima kasih.
 
 
 ## FITUR UTAMA :
-### Menampilkan Daftar Karyawan
+### "Menampilkan Daftar Karyawan"
 #### FITUR SUBMENU READ KARYAWAN :
 Dapat menginput berdasarkan pilihan Submenu. Pada fitur ini, User dapat memilih untuk menampilkan data karyawan secara keseluruhan atau mencari berdasarkan nama,  departemen,  jabatan,  atau rentang gaji bulanan.
 
@@ -48,7 +48,7 @@ Jika pengguna memilih opsi "6. Berdasarkan Gaji Karyawan", mereka akan diminta u
 
 
 
-### Menambahkan Data Karyawan
+### "Menambahkan Data Karyawan"
 #### FITUR SUBMENU UPDATE KARYAWAN :
 
 ![image](https://github.com/user-attachments/assets/15fe4bed-6386-4bf7-8155-468caa16f5f0)
@@ -58,7 +58,7 @@ Jika pengguna memilih opsi "6. Berdasarkan Gaji Karyawan", mereka akan diminta u
 Menambahkan data karyawan baru ke dalam daftar. Pada menu ini, Anda dapat memasukkan nama, departemen, jabatan, tanggal bergabung, dan gaji bulanan karyawan. Jika terdapat kesalahan dalam penginputan, aplikasi akan meminta Anda untuk menginput ulang.
 
 
-### Menghapus Data Karyawan
+### "Menghapus Data Karyawan"
 #### FITUR SUBMENU DELETE KARYAWAN :
 
 ![image](https://github.com/user-attachments/assets/a451daf8-efac-4eaf-93e3-427758a28f25)
@@ -75,7 +75,7 @@ Hapus Data Karyawan
 Menghapus data karyawan berdasarkan ID Karyawan. Pada fitur ini, Anda hanya perlu memasukkan ID Karyawan untuk melakukan penghapusan. Jika ID Karyawan tidak sesuai, maka penghapusan akan gagal.
 
 
-### Mengupdate Data Karyawan
+### "Mengupdate Data Karyawan"
 #### FITUR SUBMENU UPDATE KARYAWAN :
 
 ![image](https://github.com/user-attachments/assets/254b771a-0ae3-4b3d-bd20-6956fba5d54f)
@@ -88,7 +88,7 @@ Mengedit data karyawan yang sudah ada berdasarkan ID Karyawan. Pada fitur ini, A
 ![image](https://github.com/user-attachments/assets/0782d986-4a4d-4df0-adc0-7972089153ae)
 
 
-### Hitung Total Gaji Karyawan 
+### "Hitung Total Gaji Karyawan"
 #### FITUR SUBMENU CALCULATE KARYAWAN :
 
 Rata-rata Gaji Karyawan
