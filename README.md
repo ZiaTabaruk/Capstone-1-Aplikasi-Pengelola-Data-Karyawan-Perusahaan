@@ -46,7 +46,7 @@ Jika pengguna memilih opsi "6. Berdasarkan Gaji Karyawan", mereka akan diminta u
 
 ![image](https://github.com/user-attachments/assets/7e926aad-d0f5-4b3e-9394-d6f6825b20cd)
 
-
+----------
 
 ### "Menambahkan Data Karyawan"
 #### FITUR SUBMENU UPDATE KARYAWAN :
@@ -55,8 +55,9 @@ Jika pengguna memilih opsi "6. Berdasarkan Gaji Karyawan", mereka akan diminta u
 
 ![image](https://github.com/user-attachments/assets/8cee65da-8823-4fcf-becc-94914ea7f542)
 
-Menambahkan data karyawan baru ke dalam daftar. Pada menu ini, Anda dapat memasukkan nama, departemen, jabatan, tanggal bergabung, dan gaji bulanan karyawan. Jika terdapat kesalahan dalam penginputan, aplikasi akan meminta Anda untuk menginput ulang.
+Penambahan data karyawan melalui langkah-langkah berikut: pengguna memilih opsi "Tambah Data Karyawan", memasukkan detail karyawan (ID Karyawan dengan format ID-XXX, nama, departemen, jabatan, tanggal bergabung dengan format 1 Januari 2024, dan gaji bulanan). Setelah data dimasukkan, aplikasi menampilkan pesan konfirmasi dan tabel data karyawan untuk verifikasi. Pengguna kemudian mengonfirmasi penyimpanan data dengan memilih Y atau N. Jika Y dipilih, aplikasi menampilkan pesan bahwa data karyawan berhasil ditambahkan. Tetapi jika N dipilih maka data akan gagal disimpan
 
+----------
 
 ### "Menghapus Data Karyawan"
 #### FITUR SUBMENU DELETE KARYAWAN :
@@ -67,34 +68,36 @@ Menambahkan data karyawan baru ke dalam daftar. Pada menu ini, Anda dapat memasu
 
 ![image](https://github.com/user-attachments/assets/58356cf9-7408-4a99-9fd4-c20fa02453ea)
 
+Hapus data karyawan melalui langkah-langkah berikut: pengguna memilih opsi "Hapus Data Karyawan", kemudian memasukkan ID karyawan yang ingin dihapus. Setelah data dimasukkan, aplikasi akan menampilkan pesan konfirmasi dan tabel data karyawan yang ingin dihapus. Pengguna kemudian mengonfirmasi penghapusan data dengan memilih Y atau N. Jika Y dipilih, aplikasi menampilkan pesan bahwa data karyawan berhasil dihapus. Jika N dipilih, aplikasi menampilkan pesan bahwa data karyawan gagal dihapus, dan pengguna akan kembali ke menu "Read Data", di mana data karyawan yang ingin dihapus tadi sudah tidak ada.
+
 ![image](https://github.com/user-attachments/assets/f54a7989-808d-4b24-8b94-4bd9a1411a3d)
 
 ![image](https://github.com/user-attachments/assets/7d6ffc8d-35fe-4d03-a196-23d6c29af808)
 
-Hapus Data Karyawan
-Menghapus data karyawan berdasarkan ID Karyawan. Pada fitur ini, Anda hanya perlu memasukkan ID Karyawan untuk melakukan penghapusan. Jika ID Karyawan tidak sesuai, maka penghapusan akan gagal.
+Jika pengguna memilih opsi "Hapus Semua Data Karyawan", akan muncul konfirmasi untuk memastikan apakah pengguna benar-benar ingin menghapus semua data karyawan. Jika Y dipilih, semua data karyawan akan terhapus secara permanen. Jika pengguna kemudian melihat ke menu "Read" dan mencoba menampilkan semua data karyawan, aplikasi akan mengonfirmasi bahwa data karyawan sudah tidak tersedia.
 
+----------
 
 ### "Mengupdate Data Karyawan"
 #### FITUR SUBMENU UPDATE KARYAWAN :
 
 ![image](https://github.com/user-attachments/assets/254b771a-0ae3-4b3d-bd20-6956fba5d54f)
 
-Edit Data Karyawan
-Mengedit data karyawan yang sudah ada berdasarkan ID Karyawan. Pada fitur ini, Anda dapat mengedit data karyawan pada nama, departemen, jabatan, tanggal bergabung, dan gaji bulanan. Jika ada bagian yang tidak ingin diubah, Anda dapat menekan tombol enter untuk melewatkan perubahan tersebut.
+Dalam tampilan sistem yang diatas, pengguna memulai dengan memilih opsi untuk memperbarui data karyawan dan memasukkan ID karyawan "id-004". Setelah sistem menampilkan detail karyawan yang relevan, termasuk nama, departemen, jabatan, tanggal bergabung, dan gaji bulanan, pengguna mengonfirmasi untuk melanjutkan pembaruan. Selanjutnya, pengguna memilih untuk memperbarui departemen dan menggantinya dengan "Quality Control". Setelah pengubahan tersebut, sistem mengonfirmasi bahwa data telah berhasil diperbarui, menampilkan informasi terkini dari karyawan tersebut, termasuk nama, ID karyawan, departemen baru, jabatan, tanggal bergabung, dan gaji bulanan. Proses ini memastikan pembaruan data berjalan lancar dan akurat, dengan langkah-langkah yang jelas untuk meminimalkan kesalahan dan memastikan keakuratan informasi dalam sistem.
+
+----------
+
+### "Hitung Total Gaji Karyawan"
+#### FITUR SUBMENU CALCULATE KARYAWAN :
 
 ![image](https://github.com/user-attachments/assets/8139348c-6d4d-4e77-8f04-a88616ceba5a)
 
 ![image](https://github.com/user-attachments/assets/0782d986-4a4d-4df0-adc0-7972089153ae)
 
-
-### "Hitung Total Gaji Karyawan"
-#### FITUR SUBMENU CALCULATE KARYAWAN :
-
-Rata-rata Gaji Karyawan
-Menghitung dan menampilkan rata-rata gaji karyawan berdasarkan departemen atau keseluruhan. Pada fitur ini, Anda dapat melihat rata-rata gaji karyawan keseluruhan atau hanya berdasarkan departemen tertentu.
-
-![image](https://github.com/user-attachments/assets/6a2ffb1f-2017-46ae-86e2-73ae7936dde8)
+Menu ini juga menawarkan dua opsi tambahan yang sangat berguna: pengguna dapat melihat total gaji seluruh karyawan, serta total gaji karyawan per departemen. Fitur ini dirancang untuk mempermudah pengguna dalam memantau dan mengelola gaji karyawan secara efisien, memberikan kemudahan akses dan transparansi informasi keuangan dalam organisasi.
 
 
-#### Jika memiliki pertanyaan atau saran yang ingin disampaikan untuk pengembangan lebih lanjut, saya akan sangat mengapresiasi masukannya. Silakan hubungi saya melalui email di ziattabaruk29@gmail.com. Terima kasih atas perhatiannya!
+
+
+----------
+#### Terima kasih atas perhatiannya! Jika memiliki pertanyaan atau saran yang ingin disampaikan untuk pengembangan lebih lanjut, saya akan sangat mengapresiasi masukannya. Silakan hubungi saya melalui email di ziattabaruk29@gmail.com atau bisa langsung ke linkedin saya di www.linkedin.com/in/ziatabaruk/
